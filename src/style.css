@@ -1,5 +1,20 @@
+:root {
+  --lavender: #E6E6FA;
+  --powder-blue: #B0E0E6;
+  --soft-rose: #FFB6C1;
+  --cream: #FFFDD0;
+  --deep-plum: #6A5ACD;
+}
+
 body {
-    background: chocolate;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cream);
+  color: var(--deep-plum);
+}
+
+h1 {
+  color: var(--lavender);
+}
+
+p {
+  color: var(--soft-rose);
 }
