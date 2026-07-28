@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>French AI poem generator</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
     <h1 class="heading"> French AI poem generator</h1>
 </header>
 <main>
-    <form class="box">
+    <form class="box" id="poem-generator-form">
         <input type="text"
         placeholder="Enter the topic of your poem."
         autofocus
@@ -28,8 +29,8 @@
 
         <input type="submit" class="submit-button"/>
     </form>
-    <div class="poem-display">
-         example: Demain, dès l’aube [...]
+    <div class="poem-display" id="poem">
+         
     </div>
 </main>
 
@@ -39,7 +40,7 @@
         <a href="https://github.com/justnini98-source/French-Poem-Generator" target="blank"> Github </a> 
         and hosted on 
         <a href="https://french-poem-generator-x8hn.onrender.com/" target="blank">Render</a>.</footer>
-    <script src="src/code.js"></script>
     </div>
+    <script src="src/code.js"></script>
 </body>
 </html>
