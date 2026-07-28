@@ -9,7 +9,7 @@ header {
 }
 
 h1 {
-  font-weight: 800px;
+  font-weight: 400px;
   font-size: 36px;
   font-family: Playfair Display;
   line-height: 1.5;
@@ -49,6 +49,7 @@ a {
   border-radius: 50px;
   line-height: 20px;
   color: #F7F1E8;
+  border-color: #8B2E3C;
 }
 
 .submit-button {
