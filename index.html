@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>French AI poem generator</title>
 </head>
 <body>
+    <div class="container">
 <header> 
     <h1> French AI poem generator</h1>
 </header>
 <main>
-    <form>
+    <form class="box">
         <input type="text"
         placeholder="Enter the topic of your poem."
         autofocus
         required
-        autocomplete="off" />
+        autocomplete="off" 
+        class="prompt-form"/>
 
-        <input type="submit"/>
+        <input type="submit" class="submit-button"/>
     </form>
-    <div>
+    <div class="poem-display">
          example: Demain, dès l’aube [...]
     </div>
 </main>
@@ -32,5 +40,6 @@
         and hosted on 
         <a href="https://french-poem-generator-x8hn.onrender.com/" target="blank">Render</a>.</footer>
     <script src="src/code.js"></script>
+    </div>
 </body>
 </html>
