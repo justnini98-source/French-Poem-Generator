@@ -19,11 +19,7 @@ h1 {
 }
 
 form {
-  padding: 30px;
-  margin-bottom: 10px; 
-  background-color: #F7F4EE;
   display: flex;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 footer {
@@ -40,6 +36,13 @@ a {
 .container {
   margin:120px auto;
   max-width: 600px;
+}
+
+.container-form {
+  padding: 30px 20px 20px 20px;
+  margin: 5px 0 5px 0; 
+  background-color: #F7F4EE;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 .prompt-form {
@@ -73,6 +76,14 @@ a {
   line-height: 2;
   border-left: 3px solid #8B2E3C;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.hint {
+  font-size: 12px;
+  margin-top:5px;
+  color: #8B2E3C;
+  line-height: 1.5;
+  opacity: 0.6;
 }
 
 .box {
